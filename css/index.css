@@ -41,6 +41,14 @@ body {
     border-style: inset;
 }
 
+#resume_img {
+    padding: 10px;
+}
+
+#resume_img:hover, #mail_img:hover {
+    filter: invert(50%);
+}
+
 /* Text styling */
 
 .about h1 {
