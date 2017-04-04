@@ -1,0 +1,29 @@
+{
+  "name": "HomeWebsite",
+  "authors": [
+    "Colten Cross <colten@coltencross.com>"
+  ],
+  "description": "Website for hosting my resume",
+  "main": "index.html",
+  "keywords": [
+    "resume",
+    "web",
+    "development",
+    "colten",
+    "cross",
+    "programming"
+  ],
+  "license": "MIT",
+  "homepage": "www.coltencross.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fullpage.js": "^2.9.4"
+  }
+}

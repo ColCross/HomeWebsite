@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Colten Cross</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico"/>
+
+    <!-- Dependencies -->
+
+    <link rel="stylesheet" type="text/css" href="bower_components/fullpage.js/jquery.fullPage.css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/fullpage.js/jquery.fullPage.js"></script>
+
+    <!-- Styling -->
+
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- Navbar -->
+
+<ul id="navbar">
+    <li data-menuanchor="about" class="active"><a href="#about">About</a></li>
+    <li data-menuanchor="projects"><a href="#projects">Projects</a></li>
+    <li data-menuanchor="resume"><a href="#resume">Resume</a></li>
+    <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
+</ul>
+
+<!-- Footer -->
+
+<ul id="footer">
+    <li><a href="https://github.com/ColCross" target="_blank"><img src="images/github.png"></a></li>
+    <li><a href="https://www.linkedin.com/in/coltencross/" target="_blank"><img src="images/linkedin.png"></a></li>
+</ul>
+
+<!-- Main Content -->
+
+<div id="fullpage">
+
+    <!-- About section -->
+    <div class="section about">
+        <img class="img_rounded" id="me" src="images/me.jpg">
+        <h1>Colten Cross</h1>
+        <h2>Welcome!</h2>
+        <h3>I'm a senior Physics and Computer Science student at Georgia State University</h3>
+    </div>
+
+    <!-- Projects section -->
+    <div class="section projects" data-anchor="projects">
+        <div class="slide active">
+            <h1>Here are some projects I'm working on...</h1>
+        </div>
+        <div class="slide muon">
+            <h1>Muon Telescope</h1>
+            <h2>(unfinished)</h2>
+            <a href="http://www.muontelescope.com/" target="_blank"><img id="muon_img" src="images/muon.jpg"></a>
+            <h3>A website for displaying data from Georgia State University’s cosmic ray detectors.</h3>
+            <h3>Written almost entirely in Polymer. Dynamically builds itself based on number
+                of detectors in a database.</h3>
+        </div>
+        <div class="slide overdrive">
+            <h1>Project Overdrive</h1>
+            <h2>(unfinished)</h2>
+            <img src="images/overdrive.png">
+            <h3>The final project for my Software Engineering class. A full-scale application for managing
+                a mechanic shop.</h3>
+            <h3>Written entirely in Java with SQLite for the database.</h3>
+        </div>
+    </div>
+
+    <!-- Resume section -->
+    <div class="section resume">
+        <h1>...and here's my resume</h1>
+        <a href="resume/resume_ColtenCross.pdf" target="_blank"><img src="images/resume.png"></a>
+    </div>
+
+    <!-- Contact section -->
+    <div class="section contact">
+        <h1>I'd love to hear from you!</h1>
+        <a href="mailto:colten@coltencross.com" target="_top"><img id="mail" src="images/mail.png"></a>
+        <h3>colten@coltencross.com</h3>
+    </div>
+
+</div>
+
+<!-- fullPage JS init -->
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#fullpage').fullpage({
+            anchors: ['about', 'projects', 'resume', 'contact'],
+            menu: '#navbar',
+        });
+    });
+</script>
+</body>
+
+</html>
