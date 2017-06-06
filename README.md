@@ -1,8 +1,8 @@
 # HomeWebsite
-A website for sharing my resume and displaying projects
+A website for sharing my resume and displaying projects.
 
 ## Framework used
-[fullPage.js](https://github.com/alvarotrigo/fullPage.js)
+[W3.CSS](https://www.w3schools.com/w3css/default.asp)
 
 
 ### Debugging
