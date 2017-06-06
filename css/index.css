@@ -1,123 +1,19 @@
-body {
-    font-family: 'Arimo', sans-serif;
+html, body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", sans-serif
 }
 
-/* Section Styling */
-
-.section {
-    text-align: center;
-    color: #FFFFFC;
+h2 {
+    color: white;
 }
 
-.about {
-    background-color: #437C90;
-    //color: #FFFFFC;
-}
-
-.projects {
-    background-color: #757780;
-    //color: #FFFFFC;
-}
-
-.resume {
-    background-color: #FFFFFC;
-    color: #30343F;
-}
-
-.contact {
-    background-color: #FFFFFC;
-    color: #30343F;
-}
-
-/* IMG styling */
-.img_rounded {
-    border-radius: 50%;
-}
-
-#me {
-    height: 300px;
-    width: 300px;
-    border-width: 6px;
-    border-style: inset;
-}
-
-#resume_img {
-    padding: 10px;
-}
-
-#resume_img:hover, #mail_img:hover {
-    filter: invert(50%);
-}
-
-/* Text styling */
-
-.about h1 {
-    font-size: 50px;
-    padding-bottom: 10px;
-}
-
-.about h3 {
-    padding-top: 10px;
-}
-
-/* Navbar */
-
-#navbar, #footer {
-    z-index: 70;
-    position: fixed
-}
-
-#navbar li {
-    display: inline-block;
-    margin: 10px;
-    color: #FFFFFC;
-    background-color: #30343F;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-}
-
-#navbar li.active {
-    background-color: #D72638;
-    color: #fff
-}
-
-#navbar li a,
-#navbar li.active a:hover {
-    color: #FFFFFC
-}
-
-#navbar li.active a {
-    color: #fff
-}
-
-#navbar li:hover {
-    background-color: #98CE00;
-}
-
-#navbar li a,
-#navbar li.active a {
-    padding: 9px 18px;
-    display: block;
+a {
     text-decoration: none;
 }
 
-#navbar {
-    top: 0;
-    left: 0;
-    height: 40px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
+a:hover {
+    color: teal;
 }
 
-/* Footer */
-
-#footer li {
-    display: inline-block;
-    margin: 10px;
-}
-
-#footer {
-    bottom: 0;
-    right: 20px;
+footer a + a {
+    padding-left: 1em;
 }

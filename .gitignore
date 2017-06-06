@@ -1,6 +1,3 @@
-database.rules.json
-.firebaserc
-firebase.json
 /public
 .idea
 /functions

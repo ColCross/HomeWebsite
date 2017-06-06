@@ -1,106 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Colten Cross</title>
+<html>
+<title>Colten Cross</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Favicon -->
+<!-- Imports -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet">
 
-    <link rel="shortcut icon" href="images/favicon.ico"/>
+<!-- Favicon -->
+<link rel="shortcut icon" href="images/favicon.ico"/>
 
-    <!-- Dependencies -->
+<body class="w3-grey">
 
-    <link rel="stylesheet" type="text/css" href="bower_components/fullpage.js/jquery.fullPage.css"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script type="text/javascript" src="bower_components/fullpage.js/jquery.fullPage.js"></script>
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1300px;">
 
-    <!-- Styling -->
+    <!-- The Grid -->
+    <div class="w3-row-padding">
 
-    <link rel="stylesheet" type="text/css" href="css/index.css">
-    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+        <!-- Left Column -->
+        <div class="w3-third">
 
-</head>
-<body>
+            <div class="w3-white w3-text-grey w3-card-4">
+                <div class="w3-display-container">
+                    <img src="images\me.jpg" style="width:100%" alt="Avatar">
+                    <div class="w3-display-bottomleft w3-container w3-text-black">
+                        <h2 class="w3-xxlarge">Colten Cross</h2>
+                    </div>
+                </div>
+                <div class="w3-container">
 
-<!-- Navbar -->
+                    <!-- About me -->
+                    <p class="w3-large"><b><i class="fa fa-user fa-fw w3-margin-right w3-text-blue"></i>About me</b></p>
+                    <p>My name is Colten Cross and I'm a recent graduate from Georgia State University in Atlanta,
+                        GA. I recently moved back home to Columbus and hope to get a job in Information Security or
+                        Software Development.
+                        In my free time if I'm not watching CGP Grey or Kurzgesagt videos on YouTube, I'm playing
+                        Minecraft or spending time with my family and friends.
+                    </p>
+                    <!-- End About me -->
 
-<ul id="navbar">
-    <li data-menuanchor="about" class="active"><a href="#about">About</a></li>
-    <li data-menuanchor="projects"><a href="#projects">Projects</a></li>
-    <li data-menuanchor="resume"><a href="#resume">Resume</a></li>
-    <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
-</ul>
+                    <!-- General Info -->
 
-<!-- Footer -->
+                    <!-- TODO: Uncomment once no longer a bum-->
+                    <!--<p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-blue"></i>Cybersecurity Analyst</p>-->
 
-<ul id="footer">
-    <li><a href="https://github.com/ColCross" target="_blank"><img src="images/github.png"></a></li>
-    <li><a href="https://www.linkedin.com/in/coltencross/" target="_blank"><img src="images/linkedin.png"></a></li>
-</ul>
+                    <a href="https://www.google.com/maps?q=Columbus+GA" target="_blank"><p><i
+                            class="fa fa-home fa-fw w3-margin-right w3-large w3-text-blue"></i>Columbus, GA</p></a>
+                    <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top"><p>
+                        <i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-blue"></i>colten@coltencross.com
+                    </p>
+                    </a>
+                    <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-blue"></i>(762) 207-0132</p>
+                    <!-- End General Info -->
 
-<!-- Main Content -->
+                    <!-- Resume -->
+                    <a href="resume/resume_ColtenCross.pdf" target="_top"><p>
+                        <i class="fa fa-file-text fa-fw w3-margin-right w3-large w3-text-blue"></i>Resume</p>
+                    </a>
+                    <!-- End Resume -->
+                </div>
+            </div>
+            <br>
 
-<div id="fullpage">
-
-    <!-- About section -->
-
-    <div class="section about">
-        <img class="img_rounded" id="me" src="images/me.jpg">
-        <h1>Colten Cross</h1>
-        <h2>Welcome!</h2>
-        <h3>I'm a Physics and Computer Science graduate from Georgia State University</h3>
-    </div>
-
-    <!-- Projects section -->
-
-    <div class="section projects" data-anchor="projects">
-        <div class="slide active">
-            <h1>Here are some projects I've worked on...</h1>
         </div>
-        <div  class="slide overdrive">
-            <h1>Project Overdrive</h1>
-            <a href="https://github.com/ProjectOverdrive/mainApp" target="_blank"><img id="gear_img" src="images/overdrive.png"></a>
-            <h3>The final project for my Software Engineering class. A full-scale application for managing
-                a mechanic shop.</h3>
-            <h3>Written entirely in Java with SQLite for the database.</h3>
+        <!-- End Left Column -->
+
+        <!-- Right Column -->
+        <div class="w3-twothird">
+
+            <!-- Skills -->
+            <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
+                <h2 class="w3-text-grey w3-padding-16"><i
+                        class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i>Skills</h2>
+                <p>Information Technology, Programming, Physics</p>
+            </div>
+            <!-- End Skills -->
+
+            <!-- Education -->
+            <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
+                <h2 class="w3-text-grey w3-padding-16"><i
+                        class="fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i>Education</h2>
+                <div class="w3-container">
+                    <h5 class="w3-opacity"><b>Georgia State University</b></h5>
+                    <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2014 - May 2017
+                    </h6>
+                    <p>Bachelor of Science in Physics, Computer Science concentration</p>
+                </div>
+            </div>
+            <!-- End Education -->
+
+            <!-- Projects -->
+            <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
+                <h2 class="w3-text-grey w3-padding-16"><i
+                        class="fa fa-wrench fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i>Projects</h2>
+                <div class="w3-container">
+                    <a href="http://www.muontelescope.com" target="_blank"><h5 class="w3-opacity"><b>Muon Telescope</b>
+                    </h5></a>
+                    <p>I helped design and build a website for displaying data from Georgia State University’s cosmic
+                        ray detectors.
+                        It was created using HTML, CSS, JS, Polymer, and MySQL. The websute dynamically builds itself
+                        based on the number of detectors currently in the database.</p>
+                    <hr>
+                </div>
+                <div class="w3-container">
+                    <a href="http://github.com/ProjectOverdrive/mainApp" target="_blank"><h5 class="w3-opacity"><b>Project
+                        Overdrive</b></h5></a>
+                    <p>The final project for my Software Engineering class. A full-scale application for managing a
+                        mechanic shop written entirely in Java with SQLite for the database.
+                    </p>
+                    <hr>
+                </div>
+            </div>
+            <!-- End Projects -->
+
         </div>
-        <div class="slide muon">
-            <h1>Muon Telescope</h1>
-            <h2>(in progress)</h2>
-            <a href="http://www.muontelescope.com/" target="_blank"><img id="muon_img" src="images/muon.jpg"></a>
-            <h3>A website for displaying data from Georgia State University’s cosmic ray detectors.</h3>
-            <h3>Written using HTML, CSS, JS, Polymer, and MySQL. Dynamically builds itself based on number
-                of detectors in a database.</h3>
-        </div>
+        <!-- End Right Column -->
+
     </div>
-
-    <!-- Resume section -->
-
-    <div class="section resume">
-        <h1>...and here's my resume</h1>
-        <a href="resume/resume_ColtenCross.pdf" target="_blank"><img id="resume_img" src="images/resume.png"></a>
-    </div>
-
-    <!-- Contact section -->
-
-    <div class="section contact">
-        <h1>I'd love to hear from you!</h1>
-        <a href="mailto:colten@coltencross.com" target="_top"><img id="mail_img" src="images/mail.png"></a>
-        <h3>colten@coltencross.com</h3>
-    </div>
+    <!-- End Grid -->
 
 </div>
+<!-- End Page Container -->
 
-<!-- fullPage JS init -->
+<!-- Footer -->
+<footer class="w3-container w3-white w3-center w3-margin-top">
+    <p>Check me out on social media.</p>
+    <a href="https://github.com/ColCross" target="_blank"><i class="fa fa-github w3-xlarge w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/in/coltencross/" target="_blank"><i
+            class="fa fa-linkedin w3-hover-opacity w3-xlarge"></i></a>
+    <p></p>
+</footer>
+<!-- End Footer -->
 
-<script type="text/javascript">
-    $(document).ready(function () {
-        $('#fullpage').fullpage({
-            anchors: ['about', 'projects', 'resume', 'contact'],
-            menu: '#navbar',
-        });
-    });
-</script>
 </body>
-
 </html>
